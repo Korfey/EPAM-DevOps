@@ -37,9 +37,4 @@ done
 возвращает истину, *что происходит если интерфейс, к которому относится этот адрес, есть в списке интерфейсов по-умолчанию*, то справа к полученной строке приписывается **`default`**   
 **`echo "default " | awk '{print "\t" "\033[34m" $0}'`.
 ## Результат  
-**<span style="color:green">lo: &emsp;&emsp;&emsp; </span>**
-<span style="color:darkorange">127.0.0.1 &emsp; </span>
-</br>
-**<span style="color:green">enp0s3: &nbsp;&nbsp; </span>**
-<span style="color:darkorange">10.0.2.15 &emsp; </span>
-**<span style="color:blue">default &emsp; </span>**
+![Результат выполнения скрипта](https://github.com/Korfey/Assets/blob/main/code-result.png)
